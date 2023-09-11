@@ -1,5 +1,7 @@
-let fname = "Shaza";
-console.log(fname);
+"use strict"(function foo() {
+  for (i = 0; i < 10; i++) {
+    console.log(i);
+  }
+})();
 
-let my_nan = NaN;
-console.log(typeof my_nan);
+console.log("after loop i = ", i);
